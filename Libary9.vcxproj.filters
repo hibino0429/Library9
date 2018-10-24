@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{55ee419c-899f-41c7-876b-82431cf752df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Common">
+      <UniqueIdentifier>{6193923d-7fcb-4999-836e-34148eae522b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Task">
+      <UniqueIdentifier>{12eb4e08-7410-49ba-8501-99b786895637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9">
+      <UniqueIdentifier>{f730913f-ad7c-4a8e-aeab-11c53af7ee1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Font">
+      <UniqueIdentifier>{cf0ad9b2-14a1-4524-bd8f-d6d5a5a93736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Input">
+      <UniqueIdentifier>{62f649b0-a2e9-4d34-8aea-83d57782c07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Model">
+      <UniqueIdentifier>{c55f2a7a-44f4-4c8f-90a9-c7a4fa56e62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Sound">
+      <UniqueIdentifier>{f2cf96f3-a71d-4d9a-b46d-bb79f3221b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Texture">
+      <UniqueIdentifier>{8b405fe4-7d25-45ec-9c7a-9190ca47c6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library9\Collision">
+      <UniqueIdentifier>{70ae4e29-34da-4dc7-8b44-ff07ac4de117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game">
+      <UniqueIdentifier>{8441f9ed-bee3-4b0f-a21d-629e8c129cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ShaderSystem">
+      <UniqueIdentifier>{e8efa430-0632-47e1-a7d3-d3c2e2cbe903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game\Effects">
+      <UniqueIdentifier>{ac3ccfe5-729c-4c19-a40f-0724436a677f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game\Objects">
+      <UniqueIdentifier>{c47d8edf-060c-497f-99b3-791a60495fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Game\Components">
+      <UniqueIdentifier>{7149b5b8-96b8-407e-80bd-05b7bb3be760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Task\Scene">
+      <UniqueIdentifier>{89caace4-3d8c-4efa-a077-ac34846fc9f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameSource\Window.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Common\Renderer.cpp">
+      <Filter>System\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Common\Scene.cpp">
+      <Filter>System\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\Task.cpp">
+      <Filter>System\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\TaskMain.cpp">
+      <Filter>System\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\TaskManager.cpp">
+      <Filter>System\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Animation.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Bluetooth.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Camera.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\DGD.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Function.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Light.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Shader.cpp">
+      <Filter>Library9</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Font\Font.cpp">
+      <Filter>Library9\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Input\Input.cpp">
+      <Filter>Library9\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Model\Model.cpp">
+      <Filter>Library9\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Model\PolygonBox.cpp">
+      <Filter>Library9\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Texture\Texture.cpp">
+      <Filter>Library9\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Sound\DSound.cpp">
+      <Filter>Library9\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Sound\SoundListener.cpp">
+      <Filter>Library9\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Sound\SoundManager.cpp">
+      <Filter>Library9\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Sound\SoundSource.cpp">
+      <Filter>Library9\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Sound\WaveFile.cpp">
+      <Filter>Library9\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\Library9\Collision\Box.cpp">
+      <Filter>Library9\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\DepthTex.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\DiffuseMap.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\LibDepthTex.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\NormalMap.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\ZTex.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\ShaderSystem\ZTexture.cpp">
+      <Filter>System\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Effects\Explode.cpp">
+      <Filter>System\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Effects\Magic.cpp">
+      <Filter>System\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Effects\Particle.cpp">
+      <Filter>System\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Components\Sample.cpp">
+      <Filter>System\Game\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Components\SkinAnim.cpp">
+      <Filter>System\Game\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Components\smoke.cpp">
+      <Filter>System\Game\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\CameraMan.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Enemy.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Enemy2.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\GameObject.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Map.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Obj.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Object.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Player.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\Shot.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Game\Objects\StreetLight.cpp">
+      <Filter>System\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\Scene\Ending.cpp">
+      <Filter>System\Task\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\Scene\GameMain.cpp">
+      <Filter>System\Task\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSource\System\Task\Scene\Title.cpp">
+      <Filter>System\Task\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSource\System\Common\Common.h">
+      <Filter>System\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Common\Renderer.h">
+      <Filter>System\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Common\Scene.h">
+      <Filter>System\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\Task.h">
+      <Filter>System\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\TaskMain.h">
+      <Filter>System\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\TaskManager.h">
+      <Filter>System\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Animation.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Bluetooth.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Camera.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\DGD.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Function.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Light.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Shader.h">
+      <Filter>Library9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Font\Font.h">
+      <Filter>Library9\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Input\Input.h">
+      <Filter>Library9\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Model\Model.h">
+      <Filter>Library9\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Model\PolygonBox.h">
+      <Filter>Library9\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Texture\Texture.h">
+      <Filter>Library9\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Sound\DSound.h">
+      <Filter>Library9\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Sound\SoundListener.h">
+      <Filter>Library9\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Sound\SoundManager.h">
+      <Filter>Library9\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Sound\SoundSource.h">
+      <Filter>Library9\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Sound\WaveFile.h">
+      <Filter>Library9\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\Library9\Collision\Box.h">
+      <Filter>Library9\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\DepthTex.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\DiffuseMap.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\LibDepthTex.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\NormalMap.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\ZTex.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\ShaderSystem\ZTexture.h">
+      <Filter>System\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Effects\Explode.h">
+      <Filter>System\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Effects\Magic.h">
+      <Filter>System\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Effects\Particle.h">
+      <Filter>System\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Components\Sample.h">
+      <Filter>System\Game\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Components\SkinAnim.h">
+      <Filter>System\Game\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Components\smoke.h">
+      <Filter>System\Game\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\CameraMan.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Enemy.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Enemy2.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\GameObject.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Map.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Obj.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Object.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Player.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\Shot.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Game\Objects\StreetLight.h">
+      <Filter>System\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\Scene\Ending.h">
+      <Filter>System\Task\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\Scene\GameMain.h">
+      <Filter>System\Task\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSource\System\Task\Scene\Title.h">
+      <Filter>System\Task\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
